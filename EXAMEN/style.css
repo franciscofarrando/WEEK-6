@@ -38,7 +38,13 @@ a{
     margin: 1em 4em 1em 3em;
     display: flex;
     flex-wrap: wrap;
-    gap: 1em;
+    gap: 1em;}
+ .container2{
+        margin: 1em 4em 1em 3em;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1em;
+        justify-content: center;
 }
 .subcontainer{
     width: 95%;
