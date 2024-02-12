@@ -48,7 +48,7 @@ a{
     border: 2px solid rgb(167, 167, 167);
     border-radius: 20px;
     padding: 1em 3em 1em 3em;
-    align-items: center;
+    
 }
 .midtitle{
     width: 100vw;
@@ -88,4 +88,22 @@ a{
 .img-text3{
     width: 400px;
     border-radius: 50%;
+}
+
+footer{
+    padding: 3em;
+    background-color: rgb(213, 214, 214);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 7em;
+    text-shadow: 4px 4px rgba(255, 255, 255, 0.324);
+}
+
+.location{
+    display: flex;
+    flex-direction: column;
 }
