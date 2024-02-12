@@ -1,0 +1,91 @@
+*{
+  margin: 0px;
+}
+header{
+    height: 170px;    
+    background-image: url(img/pattern_header.3.webp);
+    background-color: white;
+    }
+
+.title{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 5em;
+    display: flex;
+    justify-content: center;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.172);
+}
+.nav-bar{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(128, 128, 128, 0.274);
+    height: 4em;
+    align-items: center;
+    list-style: none;
+    text-decoration:none;
+    color: black;
+    font-weight: bolder;
+   
+}
+a{
+    text-decoration:none;
+    color: black;
+    font-size: xx-large;
+}
+
+.container{
+    margin: 1em 4em 1em 3em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+.subcontainer{
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    border: 2px solid rgb(167, 167, 167);
+    border-radius: 20px;
+    padding: 1em 3em 1em 3em;
+    align-items: center;
+}
+.midtitle{
+    width: 100vw;
+    font-size: 3em;
+    font-weight: 500;
+    padding: 5px;
+    display: flex;
+    align-content: center;
+}
+
+.text{
+    width: 70%;
+    font-size:larger;
+    
+
+
+
+}
+.text2{
+    width: 95%;
+    font-size:larger;
+
+}
+.text3{
+    width: 70%;
+    font-size:x-large
+
+}
+
+
+.img-text1{
+    width: 400px ;
+}
+.img-text2{
+    width: 200%;
+}
+.img-text3{
+    width: 400px;
+    border-radius: 50%;
+}
