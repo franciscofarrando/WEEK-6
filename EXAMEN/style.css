@@ -53,7 +53,9 @@ a{
     gap: 1em;
     border: 2px solid rgb(167, 167, 167);
     border-radius: 20px;
-    padding: 1em 3em 1em 3em;}
+    padding: 1em 3em 1em 3em;
+    justify-content: space-between;}
+    
     
     .subcontainer2{
         width: 50%;
@@ -134,3 +136,52 @@ input, select{
     height: 25px;
     border: solid 2px rgb(189, 187, 187);
     border-radius: 2px;}
+
+.card{
+    width: 400px;
+    paddinf: 5px;
+    border: 2px solid rgb(182, 182, 182);
+    border-radius: 10px;
+}
+.cardimg1{
+    
+    background-image: url(img/card1.webp);
+    height: 200px;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 5px;
+}
+.cardtitle{
+    height: 2em;
+    background-color: rgb(189, 189, 189);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    padding-top: 5px;
+    font-style: italic;
+    font-weight: bolder;
+}
+.carddescription{
+    margin: 1em;
+    
+}
+
+.cardimg2{
+    
+    background-image: url(img/card2.webp);
+    height: 200px;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+
+.cardimg3{
+    
+    background-image: url(img/card3.webp);
+    height: 200px;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 5px;
+}
