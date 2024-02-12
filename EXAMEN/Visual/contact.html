@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../style.css">
-        
+
         <title>EXAMEN - FRANCISCO FARRANDO</title>
     </head>
     <body>
@@ -28,16 +28,46 @@
         </header>
         <main>
 
-            
         </main>
+        <div class="container">
+            <div class="subcontainer2">
+                <div class="midtitle">Info</div>
 
+                <form action="Visual/received.html" method="get">
 
+                    <label for="name">Nombre:</label>
+                    <input type="text" placeholder="Escriba aqui su nombre"
+                        id="name" name="name">
+                    <br>
+                    <label for="sirname">Apellido/s:</label>
+                    <input type="text" placeholder="Escriba aqui su nombre"
+                        id="sirname" name="sirname" required>
+                    <br>
+                    <label for="email">Correo Electronico:</label>
+                    <input type="email" placeholder="Escriba aqui su correo"
+                        id="email" name="email" required>
+                    <br>
+                    <label for="age">Edad:</label>
+                    <input type="number" placeholder="Escriba aqui su correo"
+                        id="email" name="age" required min="18" max="150">
+                    <br>
+                    <label for="subject">Asunto:</label>
+                    <select name="trip" id="trip">
+                        <option value="quote">Productos</option>
+                        <option value="buy">Trabaja con Nosotros</option>
+                    </select>
+                    <br>
+                    <label for="comment">Comentario:</label>
+                    <textarea placeholder="Escriba aqui..." id="email" required
+                        maxlength="40">
+                        </textarea>
+                    <br>
+                    <input type="submit" value="Enviar">
 
+                </div>
 
-
-
-
-
+            </form>
+        </div>
 
         <footer>
             <div class="logo">
@@ -54,7 +84,6 @@
             </div>
             <div class="rrss">
                 <span style="font-weight: bolder;">Redes Sociales:</span>
-                
 
             </div>
         </footer>

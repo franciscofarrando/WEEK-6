@@ -47,7 +47,17 @@ a{
     gap: 1em;
     border: 2px solid rgb(167, 167, 167);
     border-radius: 20px;
-    padding: 1em 3em 1em 3em;
+    padding: 1em 3em 1em 3em;}
+    
+    .subcontainer2{
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1em;
+        border: 2px solid rgb(167, 167, 167);
+        border-radius: 20px;
+        padding: 1em 3em 1em 3em;
     
 }
 .midtitle{
@@ -107,3 +117,14 @@ footer{
     display: flex;
     flex-direction: column;
 }
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    
+}
+input, select{
+    height: 25px;
+    border: solid 2px rgb(189, 187, 187);
+    border-radius: 2px;}
