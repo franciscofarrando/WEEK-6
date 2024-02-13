@@ -8,4 +8,4 @@ console.log (area);
 
 //por html
 
-document.write("El area de tu circulo es: " + (area) + " cm2");
+document.write("El area de tu circulo con radio " + x + " cm. es: " + (area) + " cm2");
