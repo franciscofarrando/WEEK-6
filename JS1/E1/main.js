@@ -8,4 +8,4 @@ console.log (suma);
 
 //por html
 
-document.write('<h3>' + "la suma es: " + (suma) + '</h3>');
+document.write("la suma es: " + (suma));
