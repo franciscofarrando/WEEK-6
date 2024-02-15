@@ -15,17 +15,23 @@ if (clouseMin == "si" && walk == "si"){
         let moneyMin = money.toLowerCase();
         if (moneyMin == "si"){
             document.write("Agarra el bidon y anda a comprar.");
-        }else{
+        } else if (moneyMin=="no"){
             document.write("Tocara caminar de todas formas.")
+        }else{
+            document.write("Que dijiste? No entendi, solo respondo a Si y No")
         }
-    } else {
+    } else if (gasolineMin == "no") {
         let battery = prompt("Tiene bateria? Si/No");
         let batterMin = battery.toLowerCase();
         if (batterMin == "no"){
             document.write("Pues, pide ayuda a cargarla o empujar el coche.")
-        } else {
+        } else if (batterMin == "si"){
             document.write("Tocara llamar al Mecanico, que tu dia no empeore mas. Adios.")
+        }else{
+            document.write("Que dijiste? No entendi, solo respondo a Si y No")
         }
 
+    } else {
+        document.write("Que dijiste? No entendi, solo respondo a Si y No")
     }
 }
