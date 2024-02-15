@@ -47,19 +47,15 @@
                     <input type="email" placeholder="Escriba aqui su correo"
                         id="email" name="email" required>
                     <br>
-                    <label for="age">Edad:</label>
-                    <input type="number" placeholder="Escriba aqui su correo"
-                        id="email" name="age" required min="18" max="150">
-                    <br>
-                    <label for="subject">Asunto:</label>
-                    <select name="trip" id="trip">
-                        <option value="quote">Productos</option>
-                        <option value="buy">Trabaja con Nosotros</option>
+                  <label for="subject">Asunto:</label>
+                    <select name="options" id="options">
+                        <option value="product">Productos</option>
+                        <option value="work">Trabaja con Nosotros</option>
                     </select>
                     <br>
                     <label for="comment">Comentario:</label>
-                    <textarea placeholder="Escriba aqui..." id="email" required
-                        maxlength="40">
+                    <textarea placeholder="Escriba aqui..." name="comment" id="comment" 
+                        maxlength="140" required>
                         </textarea>
                     <br>
                     <input type="submit" value="Enviar">
